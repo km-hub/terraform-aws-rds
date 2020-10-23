@@ -67,6 +67,7 @@ module "db_instance" {
   license_model     = var.license_model
 
   name                                = var.name
+  region                              = var.region
   username                            = var.username
   password                            = var.password
   port                                = var.port
