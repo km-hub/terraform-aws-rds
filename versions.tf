@@ -3,6 +3,6 @@ terraform {
 
   required_providers {
     aws = ">= 2.49"
-    region = "us-east-1"
+    region = us-east-1
   }
 }
