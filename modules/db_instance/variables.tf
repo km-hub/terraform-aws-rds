@@ -303,3 +303,12 @@ variable "iam_partition" {
   type        = string
   default     = "aws"
 }
+
+
+
+variable "region" {
+  description = "A mapping of region to assign to all resources"
+  type        = map(string)
+  default     = {}
+}
+
