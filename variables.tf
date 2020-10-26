@@ -375,8 +375,8 @@ variable "delete_automated_backups" {
   default     = true
 }
 
-#variable "region" {
-  #description = "A mapping of region to assign to all resources"
-  #type        = map(string)
-  #default     = {}
-#}
+variable "region" {
+  description = "A mapping of region to assign to all resources"
+  type        = map(string)
+  default     = {}
+}
